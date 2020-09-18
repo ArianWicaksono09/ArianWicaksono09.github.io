@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Arian Wicaksono Blog</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/blog-post.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Arian Wicaksono</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                TUGAS
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="Tugas1.html">TUGAS 01</a><br>
+                <a class="dropdown-item" href="Tugas2.html">TUGAS 02</a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <div class="row">
+
+      <!-- Post Content Column -->
+      <div class="col-lg-14">
+
+        <!-- Title -->
+        <h1 class="mt-4">Notasi Big O</h1>
+
+      <!-- Author -->
+      <p class="lead">
+        by Arian Wicaksono
+      </p>
+
+        <!-- Date/Time -->
+        <p>Posted on September 18, 2020 at 10:00 AM</p>
+
+        <hr>
+
+
+        <H3>Definisi Notasi Big O</H3><br>
+        <p style="text-align:justify;">Notasi Big O Merupakan Baris kode yang kita ciptakan dapat dilihat kinerja dan keefektivannya
+          dalam memecahkan masalah yang ingin kita pecahkan, maka kita butuh sebuah metodologi untuk menghitungnya. 
+          metodologi untuk menghitungnya yaitu dengan notasi O besar atau Big-O Notation. Ketika anda ingin menjadi seorang programmer, 
+          Salah satu kemampuan yang harus anda miliki adalah memprediksi jumlah sumber daya yang akan dihabiskan oleh kode 
+          yang anda buat dengan mengukur seberapa efisien algoritma yang telah ditulis. baik itu sumber daya memori maupun 
+          sumberdaya waktu harus selalu diperhatikan dalam penulisan kode programmer Inilah yang biasa dimaksud dengan Big O Notasi. 
+          Notasi ini diperkenalkan oleh Paul Bachmann, pertama kali di Jerman, pada tahun 1894.
+        </p><br><br>
+
+        <H3>Kegunaan Notasi Big O</H3><br>
+        <p style="text-align:justify;">Penerapan Big O Notation atau “Notasi O Besar” untuk menganalisa efisiensi suatu algoritma. 
+          Notasi O Besar – biasa disebut juga Notasi Landau (Landau Notation) atau Notasi Asimptotik 
+          (Asymptotic Notation) – adalah notasi matematika yang digunakan untuk menggambarkan sifat suatu fungsi asimptotik. 
+          Hal ini dilakukan untuk mengamati sifat/kecenderungan suatu fungsi untuk masukan (input) yang sangat besar/sangat
+          kecil dengan cara yang simpel namun teliti sehingga dapat dilakukan perbandingan dengan fungsi-fungsi yang lain Lebih jauh lagi, 
+          simbol O digunakan untuk mengambarkan sebuah batas atas dari asimptotik suatu jarak/ukuran dari sebuah fungsi untuk fungsi yang 
+          lebih simpel. Terdapat juga simbol-simbol seperti o, O,?, dan T untuk batas-batas atas, bawah, dan rata-rata. 
+          Aplikasinya terdapat pada dua area: dalam matematika, notasi ini digunakan untuk mengetahui karakteristik dari syarat 
+          sisa untuk wilayah tak-hingga yang terpotong, terutama seri asimptotik. Dalam computer science,notasi ini digunakan untuk 
+          menganalisa kompleksitas dari suatu algoritma. Biasanya, notasi O besar digunakan untuk menggambarkan batas-batas asimptotik. 
+          Namun batas asimptotik tersebut lebih umum dan tepat dinotasikan simbol dengan T (theta besar) seperti akan dijelaskan dibawah ini.
+        </p><br><br>
+
+        <H3>Contoh Notasi Big O</H3><br>
+        <p style="text-align:justify;">
+          Dalam Notasi Big-O terdapat beberapa contoh diantaranya yakni :<br>
+          
+          1. O(1) — Constant Time<br>
+          Constant Time artinya banyaknya input yang diberikan kepada sebuah algoritma, 
+          tidak akan mempengaruhi waktu proses (runtime) dari algoritma tersebut.<br>
+          2. O(log n) — Logarithmic Time<br>
+          Logarithmic Time artinya ketika kita memberikan input sebesar n terhadap sebuah fungsi, 
+          jumlah tahapan yang dilakukan oleh fungsi tersebut berkurang berdasarkan suatu faktor.<br>
+          3. O(n) — Linear Time<br>
+          Linear Time adalah ketika runtime dari fungsi kita berbanding lurus dengan jumlah input yang diberikan.<br>
+          4. O(n2) — Quadratic Time<br>
+          Quadratic Time adalah ketika runtime dari fungsi kita adalah sebesar n2, dimana n adalah jumlah input dari fungsi tersebut.<br>
+          5. O(2n) —Exponential Time<br>
+          Exponential Time biasanya digunakan dalam situasi dimana kita tidak terlalu tahu terhadap permasalahan yang dihadapi, 
+          sehingga mengharuskan kita mencoba setiap kombinasi dan permutasi dari semua kemungkinan.</p><br><br>
+  
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">
+        ARIAN WICAKSONO I D121181009
+        <br>TEKNIK INFORMATIKA
+        <br>UNIVERSITAS HASANUDDIN<br>
+        <br>Copyright &copy; Arian Wicaksono
+    </p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+      
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
